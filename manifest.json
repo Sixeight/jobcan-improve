@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ジョブカン改善",
+  "version": "1.0",
+  "description": "ジョブカンをちょっと良くする",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://ssl.jobcan.jp/employee/attendance",
+        "https://ssl.jobcan.jp/employee/attendance?*"
+      ]
+    }
+  ]
+}
